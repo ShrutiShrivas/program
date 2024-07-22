@@ -1,21 +1,24 @@
 #include<stdio.h>
-#include<stdlib.h>
-int digit(int x, int y);
+int test(int x, int y);
 
 int main(void){
     
-    printf("%d",digit(123, 456));
+    printf("%d",test(124, 678));
     printf("\n"); 
 
     
-    printf("%d",digit(12, 512));
+    printf("%d",test(82, 652));
     printf("\n"); 
 
-    int digit(int x, int y)
+   
+    printf("%d",test(7, 87));
+    printf("\n"); 
+
+    
+    
+}
+int test(int x, int y)
 {
     
-    return abs(x % 10) == abs(y % 10);
-
+    return (x % 10) == (y % 10);
 }
-}
-
