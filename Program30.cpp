@@ -2,27 +2,28 @@
 
 int main()
 {
-	int arr1[]={1,2,3,4,8,0};
-	int i;
-	int even_count=0;
-	int odd_count=0;
+int a[5],i ,n;
+	printf("enter number of array element");
+	scanf("%d",&n);
 	
 	
-
-	int arrsize;
+	printf("enter array element");
+	for(i=0;i<n;i++)
+	scanf("%d",&a[i]);
 	
-	arrsize=sizeof(arr1)/sizeof(arr1[0]);
+	printf("original element");
+	for(i=0;i<n;i++)
+	printf("%d",a[i]);
 	
-	for( i=0;i<arrsize;i++)
+	for(i=0;i<n;i++)
 	{
-		if(arr1[i]%2==0)
-		
-		even_count++;
-		
-		else
-		
-		odd_count++;
+		a[n]=a[i];
+		a[n]==5;
 		
 	}
-	printf("%d %d",even_count,odd_count);
+	printf("\n");
+	printf(" New Array");
+	
+	for(i=0;i<n;i++)
+	printf("%d",a[i]);
 }
