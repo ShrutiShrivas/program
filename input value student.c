@@ -32,6 +32,6 @@ int main()
     printf("rollno %d",rollno);
     printf("name %s",name);
     printf("total %d",total);
-    printf("pertage %d",percentage);
+    printf("pertage %f",percentage);
 	
 }
